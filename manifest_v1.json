@@ -1,0 +1,22 @@
+{
+    "short_name": "Todos",
+    "name": "Todo List",
+    "description": "Todo list for day to day activity",
+    "icons": [
+        {
+            "src": "./logo-96x96.png",
+            "type": "image/png",
+            "sizes": "96x96"
+        },
+        {
+            "src": "./logobig.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        }
+    ],
+    "theme_color": "#000",
+    "start_url": "./_app.php",
+    "display": "standalone",
+    "background_color": "#000",
+    "orientation": "portrait"
+}

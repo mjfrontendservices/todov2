@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* installation window */
+
+.welcomeInstall{
+    text-align: center;
+    padding: 30px 0 30px 0;
+}
+
+.welcomeInstall h3{
+    font-size: 20px;
+}
+
+.proc{
+    font-size: 15px;
+}
+
+.proc a{
+    color: rgb(38, 109, 163);
+}
+
+header{
+    background: rgb(38, 109, 163);
+    color: #fff;
+    padding: 10px 0 10px 0;
+}
+
+header h2{
+    font-size: 20px;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0px;
+}
+
+.rec{
+    font-size: 12px;
+    font-style: italic;
+}
+
+.active{
+    border-bottom: rgb(38, 109, 163) 2px solid;
+}
+
+.bluenB{
+    color: rgb(38, 109, 163);
+}
+
+.blue{
+    color: rgb(38, 109, 163);
+    font-weight: bold;
+}
+
+.green{
+    color: green;
+}
+
+.red{
+    color: rgb(175, 38, 38)
+}
+
+/* add categ input */
+
+.addCategInput{
+    padding: 10px 0 10px 0;
+    display: none;
+}
+
+.addCategInput .container{
+    display: flex;
+}
+
+.addCategInput .input{
+    width: 80%;
+}
+
+.addCategInput .button{
+    width: 20%;
+}
+
+.addCategInput input{
+    width: 100%;
+    height: 100%;
+    border: #000 1px solid;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.addCategInput .button button{
+    font-size: 12px;
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: rgb(38, 109, 163);
+    color: #fff;
+}
+
+.adding{
+    display: none;
+}
+
+.addLoading{
+    width: 12px;
+    height: 12px;
+}
+
+/* add category button */
+
+.addCateg{
+    padding: 10px 0 10px 0;
+    text-align: center;
+    background: #d3d3d3;
+}
+
+.addCateg h4{
+    font-size: 15px;
+}
+
+.addCateg .cancel{
+    display: none;
+}
+
+/* categories */
+
+.categories .cat{
+    display: flex;
+    padding: 10px;
+    background: #dfdfdf;
+    margin: 10px 0 10px 0;
+}
+
+.categories .categoryName{
+    width: 90%;
+}
+
+.categories h2{
+    font-size: 15px;
+}
+
+.categories .categDelete{
+    width: 10%;
+    text-align: center;
+}
+
+.categories .del{
+    font-size: 12px;
+    color: rgb(175, 38, 38);
+}
+
+.categories span{
+    font-size: 12px;
+}
+
+/* task */
+
+.catName{
+    padding: 10px 0 10px 0;
+}
+
+.catName h2{
+    font-size: 20px;
+}
+
+.addTodoInput .container{
+    display: flex;
+}
+
+.addTodoInput .input{
+    width: 80%;
+}
+
+.addTodoInput input{
+    width: 100%;
+    height: 100%;
+    border: #000 1px solid;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.addTodoInput .button{
+    width: 20%;
+    padding: none;
+}
+
+.addTodoInput .button button{
+    font-size: 12px;
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: rgb(38, 109, 163);
+    color: #fff;
+}
+
+.ad{
+    display: none;
+}
+
+.addingTodo{
+    width: 12px;
+    height: 12px;
+}
+
+/* tesk */
+
+.task .container{
+    display: flex;
+}
+
+.task ._task,
+.task ._done{
+    padding: 10px 0 10px 0;
+    width: 50%;
+    text-align: center;
+}
+
+/* task list */
+
+.taskList .taskk{
+    display: flex;
+    padding: 10px;
+    font-size: 12px;
+    margin: 10px 0 10px 0;
+    background: #e6e6e6;
+}
+
+.taskList .taskName{
+    width: 70%;
+}
+
+.taskList .actions{
+    width: 30%;
+    text-align: right;
+}
+
+.taskList i{
+    margin-left: 20px;
+}
+
+/* done */
+
+.doneList .done{
+    display: flex;
+    padding: 10px;
+    font-size: 12px;
+    margin: 10px 0 10px 0;
+    background: #adfaba;
+}
+
+.doneList .doneName{
+    width: 80%;
+}
+
+.doneList .doneDel{
+    width: 20%;
+    text-align: right;
+}
