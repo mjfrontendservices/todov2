@@ -4,12 +4,12 @@
     "description": "Todo list for day to day activity",
     "icons": [
         {
-            "src": "./logo-96x96.png",
+            "src": "./todologo96x961.png",
             "type": "image/png",
             "sizes": "96x96"
         },
         {
-            "src": "./logobig.png",
+            "src": "./todologobig.png",
             "type": "image/png",
             "sizes": "192x192"
         }

@@ -19,7 +19,7 @@
     <!-- manifest -->
     <link rel="manifest" href="./manifest_v1.json">
     <!-- icon -->
-    <link rel="icon" href="./logobig.png">
+    <link rel="icon" href="./todologo.jpg">
     <!-- custom -->
     <link rel="stylesheet" href="./custom.css">
     <title><?php echo $title?></title>
