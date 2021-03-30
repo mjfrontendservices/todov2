@@ -14,9 +14,9 @@
             "sizes": "192x192"
         }
     ],
-    "theme_color": "#000",
+    "theme_color": "#f4f4f4",
     "start_url": "./_app.php",
     "display": "standalone",
-    "background_color": "#000",
+    "background_color": "#f4f4f4",
     "orientation": "portrait"
 }
