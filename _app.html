@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="./libraries/bootstrap/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="./libraries/bootstrap/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="./libraries/bootstrap/bootstrap.min.css">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="./libraries/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="./libraries/fontawesome/css/brands.min.css">
+    <link rel="stylesheet" href="./libraries/fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="./libraries/fontawesome/css/regular.min.css">
+    <link rel="stylesheet" href="./libraries/fontawesome/css/solid.min.css">
+    <link rel="stylesheet" href="./libraries/fontawesome/css/svg-with-js.min.css">
+    <link rel="stylesheet" href="./libraries/fontawesome/css/v4-shims.min.css">
+    <!-- manifest -->
+    <link rel="manifest" href="./manifest_v1.json">
+    <!-- icon -->
+    <link rel="icon" href="./todologo.jpg">
+    <!-- custom -->
+    <link rel="stylesheet" href="./custom.css">
+    <title>App</title>
+</head>
+
+<header>
+    <div class="container">
+        <h2>Todos</h2>
+    </div>
+</header>
+
+<section class="addCategInput">
+    <div class="container">
+        <div class="input">
+            <input type="text" class="categInput" placeholder="Add Category...">
+        </div>
+        <div class="button">
+            <button class="add">Add</button>
+            <button class="adding"><div class="spinner-border addLoading"></div></button>
+        </div>
+    </div>
+</section>
+
+<section class="addCateg">
+    <div class="container">
+        <h4 class="adds"><i class="fa fa-plus"></i> Add Category</h4>
+        <h4 class="cancel"><i class="fa fa-times"></i> Cancel</h4>
+    </div>
+</section>
+
+<section class="categories">
+    <div class="container">
+    </div>
+</section>
+
+<!-- jquery -->
+<script src="./libraries/jquery/jquery.js"></script>
+<!-- bootstrap -->
+<script src="./libraries/bootstrap/bootstrap.bundle.min.js"></script>
+<script src="./libraries/bootstrap/bootstrap.min.js"></script>
+<!-- sw registration -->
+<script src="./swr.js"></script>
+<!-- custom -->
+<script src="./custom.js"></script>
+</body>
+
+</html>

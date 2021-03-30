@@ -3,11 +3,11 @@ $(document).ready(function () {
     // navigations
 
     $('._task').click(function () {
-        window.location.href = "_tasks.php";
+        window.location.href = "_tasks.html";
     });
 
     $('._done').click(function () {
-        window.location.href = "_done.php";
+        window.location.href = "_done.html";
     });
 
     // categs localstorage array
@@ -110,14 +110,14 @@ $(document).ready(function () {
         }
         categs[indexToInsertTodo].tasks.push(todo);
         localStorage.setItem('todos', JSON.stringify(categs));
-        window.location.href = "_tasks.php";
+        window.location.href = "_tasks.html";
     }
 
     // if category name (block was click, id will be put on the temporary id...)
 
     $('.categoryName').click(function () {
         tempCategId($(this).attr('cat-id'));
-        window.location.href = "_tasks.php";
+        window.location.href = "_tasks.html";
     });
 
     // add todo data

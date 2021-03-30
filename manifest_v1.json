@@ -15,7 +15,7 @@
         }
     ],
     "theme_color": "#f4f4f4",
-    "start_url": "https://apptodoinstall.netlify.app/_app.php",
+    "start_url": "https://apptodoinstall.netlify.app/_app.html",
     "display": "standalone",
     "background_color": "#f4f4f4",
     "orientation": "portrait"

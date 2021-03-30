@@ -6,9 +6,9 @@ let cached_version = 'v 0.0.1 todos';
  * Assets to be cached
  */
 let cached_assets = [
-    './_app.php',
-    './_tasks.php',
-    './_done.php'
+    './_app.html',
+    './_tasks.html',
+    './_done.html'
 ];
 
 // install event
